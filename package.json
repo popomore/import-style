@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "embedding style text in JavaScript code",
   "keywords": ["import","style"],
-  "author": "Frank Wang <lifesinger@gmail.com>",
+  "author": "popomore <sakura9515@gmail.com>",
   "repository": {
     "type": "git",
     "url": "git://github.com/popomore/import-style.git"
