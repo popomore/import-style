@@ -1,30 +1,21 @@
-seajs-style
-===========
+# import-style
 
-A Sea.js plugin for embedding style text in JavaScript code
+Embedding style text in JavaScript code
 
+---
 
-Install
--------
+## install
 
-Install with spm:
-
-    $ spm install seajs/seajs-style
-
-
-Usage
------
-
-```html
-<script src="path/to/sea.js"></script>
-<script src="path/to/seajs-style.js"></script>
-
-<script>
-
-// seajs has importStyle method after loading style plugin.
-seajs.importStyle("body { margin: 0 }")
-
-</script>
+```
+spm install import-style
 ```
 
-For more details please visit [中文文档](https://github.com/seajs/seajs-style/issues/1)
+## Usage [中文文档](https://github.com/seajs/seajs-style/issues/1)
+
+```
+require('import-style')('body { margin: 0 }')
+```
+
+## LISENCE
+
+Copyright (c) 2014 popomore. Licensed under the MIT license.
